@@ -1,0 +1,78 @@
+html,
+body {
+	font-family: 'Roboto Slab', serif;
+	background:	url(https://images7.alphacoders.com/423/thumb-1920-423348.jpg) no-repeat center center fixed;
+	-webkit-background: cover;
+	-moz-background: cover;
+	-o-background: cover;
+	background: cover;
+}
+
+h1 {
+	border-bottom: 2px solid lightgrey;
+	border-right: 2px solid lightgrey;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px; 
+	background-color: white;
+}
+
+.table {
+	border: 3px solid white;
+	width: 400px;
+	background-color: rgba(255,255,255,0.6);
+	box-shadow: 4px 4px 5px #888888;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#Fname,
+#Lname,
+#Email,
+#Pass {
+	padding: 0 10px;
+	border-width: 5px;
+	border-color: grey;
+
+}
+
+#submit,
+button {
+	padding: 5px 20px;
+	border-radius: 20px 20px;
+	font-family: 'Roboto Slab', serif;
+	transition: all 0.5 ease-in;
+}
+
+#submit:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+footer strong {
+	color: rgb(255,0,0);
+}
+
+button {
+	background-color: cyan;
+	border-color: cyan;
+}
+
+button:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+a {
+	text-decoration: none;
+}
+
